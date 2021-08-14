@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light And Dark Mode</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Switch Mode -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav id='nav'>
+        <a href="#home">HOME</a>
+        <a href="#services">SERVICES</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id='home'>
+        <div class="title-group">
+            <h1>Make your business bright</h1>
+            <h1>with N&R Solutions</h1>
+            <h2>Welcome to our Home!</h2>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id='services'>
+        <div class="title-group">
+            <h1>What we Offer</h1>
+            <div class="services-container">
+                <div class="image-container">
+                    <h2>Marketing Plans</h2>
+                    <img src="/img/undraw_Marketing_re_light.svg" alt="ProudCoder" id="image1">
+                    <div class="moreInfo">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, iure exercitationem
+                            error eum nesciunt perferendis cumque animi assumenda! Voluptas ab quasi ratione modi quidem
+                            aliquam fugit blanditiis pariatur ducimus corrupti?</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <h2>Segment analysis</h2>
+                    <img src="/img/undraw_Segment_analysis_re_light.svg" alt="FellingProud" id="image2">
+                    <div class="moreInfo">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque officiis aut, cumque
+                            inventore eveniet mollitia a quae error in, voluptatem deleniti id, quas tempore velit esse
+                            necessitatibus! Praesentium, culpa exercitationem.</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <h2>Promotion ideas</h2>
+                    <img src="/img/undraw_Web_search_re_light.svg" alt="ConceptualIdea" id="image3">
+                    <div class="moreInfo">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum nesciunt velit
+                            cumque perferendis veniam culpa voluptatibus expedita quidem, sit quaerat dolorem dolores
+                            ex? In aliquam eum dicta voluptas iusto?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id='projects'>
+        <div class="title-group">
+            <h1>Current Projects</h1>
+        </div>
+        <div class="project-container">
+
+        </div>
+        <div class="text-box" id="text-box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eveniet fugit quos consequuntur
+                corporis veniam amet obcaecati tenetur unde veritatis, libero dolorum sequi repellendus adipisci
+                dignissimos dolores pariatur? Commodi, porro!</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id='contact'>
+        <h1>Contact</h1>
+        <div class="container-form">
+            <h2>Send us a message</h2>
+            <form id="form">
+                <!-- Full Name -->
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type='text' id='name' placeholder="Full Name" required>
+                </div>
+                <!-- Phone  -->
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type='tel' id='phone' placeholder="000-000-0000" required>
+                </div>
+                <!-- Email  -->
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type='email' id='email' placeholder="email@address.com" required>
+                </div>
+                <!-- Message  -->
+                <div class="form-group">
+                    <label>Your message</label>
+                    <textarea placeholder="Your message" required></textarea>
+                    <!-- Submit Button  -->
+                    <button class="primary" type="submit">Send Message</button>
+                    <h2>Don't hesitate!</h2>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
