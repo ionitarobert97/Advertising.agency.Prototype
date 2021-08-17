@@ -131,11 +131,29 @@ img {
 
 
 /* Projects Section */
-.projects-container {
+.project-container {
   display: flex;
+  align-content: space-around;
+}
+
+.project-container > .image-container > a {
+  margin: 0;
+}
+
+.project-container > .image-container > a > img {
+  height: 400px;
+  width: 400px;
+}
+
+.project-info {
+  position:inherit;
+  width: 400px;
+  margin-top: 0.5rem;
+  text-align: center;
 }
 
 .text-box {
+  margin-top: 3.5rem;
   width: 40%;
   text-align: justify;
   background: rgb(0 0 0 / 50%);
